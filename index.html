@@ -1,46 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>calculator challenge</title>
   <style>
-        body {
-            background-color: black;
-        }
+// CSS goes here
+body {
+    background-color: linen;
+}
 
-<<<<<<< HEAD
-        container {
-                border-left: 6px solid #2196F3;
-        }
-        h1 {
-            color: maroon;
-            margin-left: 40px;
-        }
-
-        #cell {
-          border: solid;
-          border-color: white;
-          text-align: center;
-          font-size: 12px;
-          padding: 10px;
-          width:15px;
-          height:15px;
-        }
-
-    #cellBig {
-          border: solid;
-          border-color: white;
-          text-align: center;
-          font-size: 12px;
-          padding: 10px;
-          width:60px;
-          height:15px;
-        }
-=======
 h1 {
     color: maroon;
     margin-left: 40px;
@@ -62,7 +34,6 @@ h1 {
 .clearbutton{
     height: 30px;
 }
->>>>>>> 7a6daa7da62c2d0ac17d1571c45cffa43b5c21c4
   </style>
 </head>
 <body>
@@ -72,13 +43,8 @@ h1 {
         </div>
         <div class="container form" id="calcDisplay">
             <p>
-<<<<<<< HEAD
-              <input type="text">
-              <button type="button">Clear</button>
-=======
                     <input class = "answerbox" type="text" size = "13" placeholder="0">
                     <button class="clearbutton" type="button">Clear</button>
->>>>>>> 7a6daa7da62c2d0ac17d1571c45cffa43b5c21c4
                 <div class="checklist">
 
                 </div>
@@ -99,7 +65,7 @@ h1 {
     var calc = document.getElementById('calcDisplay');
     var table = "<table><tbody>";
   var row = "<tr>";
-  for(i = 0; i < 5; i++)
+  for(i = 0; i < 6; i++)
   {
       table += row;
     for(j = 0; j < 4; j++)
